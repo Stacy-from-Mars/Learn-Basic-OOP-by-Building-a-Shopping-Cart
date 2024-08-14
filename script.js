@@ -87,6 +87,8 @@ const products = [
 
 products.forEach(
     ({name, id, price, category}) => {
-
+        dessertCards.innerHTML += `
+        
+        `;
     }
 );
