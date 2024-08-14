@@ -97,3 +97,5 @@ products.forEach(
         `;
     }
 );
+
+class ShoppingCart {};
