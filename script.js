@@ -84,3 +84,7 @@ const products = [
         category: "Cupcake",
     },
 ];
+
+products.forEach(
+    () => {}
+);
