@@ -130,3 +130,5 @@ class ShoppingCart {
             `;
     }
 };
+
+const cart = new ShoppingCart();
