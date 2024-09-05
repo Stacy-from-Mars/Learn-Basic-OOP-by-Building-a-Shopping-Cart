@@ -135,7 +135,10 @@ class ShoppingCart {
     }
 
     clearCart() {
-
+        if(!this.items.length) {
+            alert("Your shopping cart is already empty");
+            return;
+        }
     }
 
     calculateTotal() {
